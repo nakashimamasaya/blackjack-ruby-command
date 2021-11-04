@@ -155,9 +155,7 @@ class BlackJack
     end
 end
 
-game = BlackJack.new()
-while game.main_game
-    game = BlackJack.new()
+while BlackJack.new().main_game
 end
 
 
